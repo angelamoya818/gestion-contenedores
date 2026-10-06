@@ -24,7 +24,7 @@ La planificación se ha realizado a partir de los usuarios del proyecto, sus nec
 
 - [Personas](docs/personas.md)
 - [Historias de usuario](docs/historias-de-usuario.md)
-- [User journays](docs/user-journays.md)
+- [User journays](docs/user-journeys.md)
 - [Milestones](docs/milestones.md)
 
 ## Role-play

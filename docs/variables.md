@@ -1,6 +1,6 @@
 # Variables del problema
-
-En este documento se describen las variables necesarias para representar la información utilizada en el problema de planificación y trazabilidad de contenedores, pedidos y viajes. Se incluyen únicamente las variables necesarias para representar los conceptos definidos en las historias de usuario y los milestones del proyecto.
+En este documento se explican las variables identificadas en el problema que son necesarias para representar la información utilizada por las historias de usuario y los milestones definidos en este objetivo.
+La selección se ha realizado a partir de las necesidades necesarias para asignar un contenedor, teniendo en cuenta aspectos como si va a transportar mercancía peligrosa, si puede utilizarse para determinadas mercancías, si dispone de las características necesarias y si tiene las inspecciones correspondientes en regla.
 
 ## Contenedores
 
