@@ -1,8 +1,8 @@
 # Milestones
 
-## Milestone 0: Modelo del dominio
-El objetivo es modelizar la información necesaria para conocer la situación de los contenedores y su evolución a lo largo del tiempo, a partir del problema descrito en HU001. Se debe entreagr el código correspondiente al modelo del dominio, preparado como base para el desarrollo posterior, sin implementar todavía la lógica de negocio de planificación.
-Será válido mediante la revisión del proceso seguido para obtener el modelo a partir de la HU001 y de los commits asociados, comprobando que los conceptos incluidos permiten representar la información necesaria para abordar el problema de trazabilidad planteado.
+## Milestone 0: Planificación de asignaciones
+Se entrega una primera versión funcional del producto que permite obtener una propuesta de asignación de contenedores a los pedidos futuros a partir de la información disponible sobre los contenedores y los pedidos.
+El producto se considera válido cuando, mediante la ejecución de las pruebas automatizadas definidas para los escenarios de la HU001 Y HU003, se puede comprobar de forma objetiva y determinista que las asignaciones propuestas solo utilizan contenedores que cumplen las condiciones requeridas por cada pedido, teniendo en cuenta su disponibilidad prevista, ubicación, viajes asignados, fechas de finalización y características necesarias para la operación.
 
-## Milestone 1: Lógica del negocio
-A patir del modelo de dominio construido en el M0, el objetivo es resolver los problemas de disponibilidad y planificación planteados en las HU002 y HU003 mediante la implementación de la lógica de negocio necesaria. Se debe entregar una primera versión funcional del producto con las pruebas automatizadas necesarias para comprobar la lógica implementada. Sería viable si, en la ejecución de las pruebas automatizadas, se puede comprobar de forma objetiva que la lógica de negocio permite determinar qué contenedores pueden atender los pedidos y realizar la planificación de las asignaciones de acuerdo con los escenarios definidos en las historias de usuario.
+## Milestone 1: Comprobación y ajuste de la planificación
+Se entrega una versión del producto que, a partir de una planificación de asignaciones, permite comprobar qué pedidos han quedado sin cubrir y obtener la información necesaria para valorar y ajustar la planificación cuando sea necesario. El producto se considera válido cuando, mediante la ejecución de las pruebas automatizadas definidas para los escenarios de la HU002, se puede comprobar de forma objetiva y determinista que los pedidos sin cubrir se identifican correctamente y que las alternativas de planificación obtenidas respetan las condiciones de disponibilidad y las características requeridas por los pedidos.
