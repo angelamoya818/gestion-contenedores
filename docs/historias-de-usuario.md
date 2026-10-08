@@ -1,16 +1,10 @@
 # Historias de usuario
 
-## [HU001] Dificultad para asignar contenedores a pedidos futuros
-Como responsable de logística, Esperanza necesita asignar contenedores a los pedidos de los clientes teniendo en cuenta la fecha y ubicación en la que se necesitan, los viajes que ya tienen asignados los contenedores, sus fechas de finalización y las características necesarias para realizar cada operación, por lo que la planificación de una flota de más de 800 contenedores resulta difícil de realizar y puede dejar pedidos sin cubrir o provocar desplazamientos innecesarios de contenedores vacíos.
+## [HU001] Pérdida de trazabilidad sobre la situación de los contenedores
+Como responsable de logística, Esperanza necesita conocer la sitación de los contenedores a lo largo del tiempo, incluyendo dónde se encontraban, si estaban vacíos o cargados, qué mercancía transportaban y qué viaje tenían asociado, para poder reconstruir su recorrido y conocer su evolución cuando necesita localizarlo o revisar su actividad anterior. La información de los contenedores cambia con las operaciones realizadas y actualmente resulta difícil reconstruir su situación en una fecha anterior cuando es necesario revisar una operación o localizar el origen de una determinada situación.
 
-## [HU002] Pedidos que no pueden ser cubiertos con la flota disponible
-Como responsable de logística, Esperanza necesita comprobar si los pedidos pendientes pueden ser atendidos con los contenedores disponibles y conocer qué pedidos quedan sin cubrir y qué contenedores serían necesarios, para poder tomar decisiones sobre la planificación y decidir si puede asumir los pedidos pendientes. Es muy importante ver qué pedidos se dejan sin cubrir ya que con muchos clientes se tienen contratos llamados tenders que al tener un contrato de un período determinado para el que trabajan para ellos si le fallan en repetidas ocasiones estos no renuevan el contrato y estos clientes les ofrecen muy buenas condiciones por lo que aunque haya un pedido que tengan que hacer una movilización de contenedores de gran trayecto conviene hacerla porque le hacen muchos pedidos a la empresa.
+## [HU002] Dificultad para determinar qué contenedores pueden atender un pedido futuro 
+Como responsable de logística, Esperanza necesita determinar qué contenedores pueden utilizarse para atender un pedido futuro teniendo en cuenta cuándo y dónde se necesita, los viajes que ya tienen asignados, cuándo finalizan dichos viajes y las características y restricciones que debe cumplir el contenedor. La cantidad de contenedores disponibles y las distintas características que deben cumplir según la operación hacen que no sea sencillo determinar qué contenedores pueden utilizarse para cada pedido.
 
-## [HU003] Necesidad de revisar y modificar las asignaciones propuestas
-La responsable de logística necesita revisar las asignaciones de contenedores propuestas para los pedidos y poder aceptarlas o modificarlas cuando no se ajusten a lo que ella quiere por motivos de contratos con clientes o que ese contenedor no esté disponible por lo que sea.
-
-## [HU004] Pérdida de trazabilidad sobre la situación de los contenedores
-Esperanza necesita consultar dónde se encontraba un contenedor y cuál era su situación durante un período determinado, incluyendo si estaba vacío o cargado, qué mercancía transportaba y qué viaje tenía asociado, para poder reconstruir su recorrido y conocer su evolución cuando necesita localizarlo o revisar su actividad anterior.
-
-## [HU005] Dificultad para consultar toda la información de un viaje
-También necesita consultar la información asociada a un viaje realizado o pendiente, incluyendo su origen, destino, fechas, pedido y contenedor asignado, para poder conocer las operaciones realizadas o previstas y relacionarlas con la situación de los contenedores.
+## [HU003] Dificultad para planificar las asignaciones de una flota limitada
+Esperanza necesita planificar la asignación de los contenedores disponibles a los pedidos y revisar las decisiones tomadas cuando sea necesario, teniendo en cuenta que pueden existir más pedidos que contenedores disponibles y que algunos clientes tienen contratos cuya continuidad puede verse afectada si sus pedidos no se atienden.
