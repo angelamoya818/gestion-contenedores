@@ -1,8 +1,11 @@
 # Milestones
 
-## Milestone 0: Planificación de asignaciones
-Se entrega una primera versión funcional del producto que permite obtener una propuesta de asignación de contenedores a los pedidos futuros a partir de la información disponible sobre los contenedores y los pedidos.
-El producto se considera válido cuando, mediante la ejecución de las pruebas automatizadas definidas para los escenarios de la HU001 Y HU003, se puede comprobar de forma objetiva y determinista que las asignaciones propuestas solo utilizan contenedores que cumplen las condiciones requeridas por cada pedido, teniendo en cuenta su disponibilidad prevista, ubicación, viajes asignados, fechas de finalización y características necesarias para la operación.
+## Milestone 0: Modelización inicial del dominio
+En este hito se abordará inicialmente el problema descrito en la HU001, relacionado con la dificultad de determinar qué contenedores pueden utilizarse para atender pedidos futuros. Se aplicará diseño guiado por dominio (DDD) para identificar y representar en código los conceptos y las relaciones necesarios para describir este problema, sin anticipar la implementación de la lógica de negocio.
+El trabajo se organizará mediante issues derivados de los problemas concretos identificados en la historia de usuario. Los cambios en el código estarán relacionados con los issues correspondientes, de manera que se pueda seguir cómo evoluciona la representación del dominio a partir del análisis realizado. 
+El hito se considerará completado cuando los conceptos y las relaciones analizados estén representados en el código de forma coherente y exista una base de dominio que permita continuar trabajando sobre el problema en los siguientes hitos.
 
-## Milestone 1: Comprobación y ajuste de la planificación
-Se entrega una versión del producto que, a partir de una planificación de asignaciones, permite comprobar qué pedidos han quedado sin cubrir y obtener la información necesaria para valorar y ajustar la planificación cuando sea necesario. El producto se considera válido cuando, mediante la ejecución de las pruebas automatizadas definidas para los escenarios de la HU002, se puede comprobar de forma objetiva y determinista que los pedidos sin cubrir se identifican correctamente y que las alternativas de planificación obtenidas respetan las condiciones de disponibilidad y las características requeridas por los pedidos.
+## Milestone 1: Desarrollo incremental del dominio
+En este hito se ampliará la modelización inicial a partir del análisis de los problemas que vayan surgiendo en las historias de usuario del proyecto. Se revisarán y completarán los conceptos y las relaciones del dominio cuando sea necesario para representar con mayor precisión las situaciones que se producen en la gestión de contenedores y pedidos.
+El trabajo continuará mediante issues vinculados a los problemas identificados en las historias de usuario, incorporando los cambios al código de forma incremental y manteniendo la trazabilidad entre los problemas analizados, los issues y los commits.
+El hito se considerará completado cuando los problemas abordados en esta fase estén reflejados de forma coherente en el modelo de dominio y este proporcione una base adecuada para comenzar a desarrollar y comprobar la lógica de negocio en las siguientes etapas.
