@@ -1,11 +1,11 @@
 # Milestones
 
 ## Milestone 0: Modelización inicial del dominio
-En este hito se abordará inicialmente el problema descrito en la HU001, relacionado con la dificultad de determinar qué contenedores pueden utilizarse para atender pedidos futuros. Se aplicará diseño guiado por dominio (DDD) para identificar y representar en código los conceptos y las relaciones necesarios para describir este problema, sin anticipar la implementación de la lógica de negocio.
-El trabajo se organizará mediante issues derivados de los problemas concretos identificados en la historia de usuario. Los cambios en el código estarán relacionados con los issues correspondientes, de manera que se pueda seguir cómo evoluciona la representación del dominio a partir del análisis realizado. 
-El hito se considerará completado cuando los conceptos y las relaciones analizados estén representados en el código de forma coherente y exista una base de dominio que permita continuar trabajando sobre el problema en los siguientes hitos.
+En este hito se abordará el problema descrito en la HU001, relacionado con la dificultad de determinar qué contenedores pueden utilizarse para atender pedidos futuros. Se aplicará diseño guiado por dominio (DDD) para identificar y representar en código los conceptos y las relaciones necesarios para describir este problema, sin implementar todavía la lógica de negocio.
+El trabajo se organizará mediante issues que planteen problemas concretos derivados de la historia de usuario. A partir del análisis de esos problemas se desarrollará progresivamente el modelo en código, manteniendo la relación entre las historias de usuario, los issues y los cambios realizados.
+El hito se considerará completado cuando exista una modelización inicial del dominio en código que represente de forma coherente los conceptos y las relaciones identificados y sirva como base para implementar posteriormente la lógica de negocio.
 
-## Milestone 1: Desarrollo incremental del dominio
-En este hito se ampliará la modelización inicial a partir del análisis de los problemas que vayan surgiendo en las historias de usuario del proyecto. Se revisarán y completarán los conceptos y las relaciones del dominio cuando sea necesario para representar con mayor precisión las situaciones que se producen en la gestión de contenedores y pedidos.
-El trabajo continuará mediante issues vinculados a los problemas identificados en las historias de usuario, incorporando los cambios al código de forma incremental y manteniendo la trazabilidad entre los problemas analizados, los issues y los commits.
-El hito se considerará completado cuando los problemas abordados en esta fase estén reflejados de forma coherente en el modelo de dominio y este proporcione una base adecuada para comenzar a desarrollar y comprobar la lógica de negocio en las siguientes etapas.
+## Milestone 1: Implementación lógica de negocio 
+En este hito se comenzará a desarrollar la lógica de negocio a partir del modelo de dominio construido en el hito anterior. El trabajo partirá de los problemas planteados en las historias de usuario y de los issues asociados, incorporando progresivamente el comportamiento necesario para abordar las necesidades del cliente.
+Los cambios se desarrollarán de forma incremental y estarán relacionados con los issues que aborden, manteniendo la trazabilidad entre las historias de usuario, los problemas analizados y el código incorporado.
+El hito se considerará completado cuando la lógica de negocio desarrollada permita abordar los problemas incluidos en los issues asociados y se haya comprobado, mediante pruebas adecuadas, que el comportamiento implementado responde a los requisitos descritos en las historias de usuario.
