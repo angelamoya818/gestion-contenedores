@@ -1,0 +1,10 @@
+# Historias de usuario
+
+## [HU001] Dificultad para asignar contenedores a pedidos futuros
+Como responsable de logística, Esperanza tiene dificultades para determinar qué contenedores pueden atender cada pedido futuro, ya que debe tener en cuenta la fecha y ubicación en la que se necesita el contenedor, los viajes que ya tiene asignados, la fecha prevista de finalización de dichos viajes y las características y restricciones necesarias para realizar la operación. La cantidad de contenedores disponibles y las distintas condiciones que deben cumplir hacen que esta asignación resulte difícil de realizar de forma manual porque debemos hacer el menor trayecto posible.
+
+## [HU002] Dificultad para reajustar pedidos que quedan sin cubrir 
+Una vez realizada una asignación, puede ocurrir que determinados pedidos queden sin cubrir. Resulta difícil reajustar la planificación cuando es necesario priorizar determinados pedidos, especialmente en el caso de clientes con contratos cuya continuidad puede verse afectada si sus pedidos no se atienden. Modificar una asignación puede afectar al resto de pedidos y a la disponibilidad de los contenedores, por lo que resulta difícil encontrar una planificación que permita cubrir los pedidos prioritarios manteniendo las condiciones necesarias y evitando movilizaciones innecesarias.
+
+## [HU003] Pérdida de trazabilidad sobre la evolución de los contenedores
+Cuando es necesario revisar una incidencia, como que un contenedor que se suponía que estaba en una base no se encuentre allí, o reconstruir la actividad de un contenedor, resulta difícil conocer cuál era su situación en una fecha anterior, ya que la información disponible refleja principalmente su estado actual. Esto impide reconstruir con facilidad dónde se encontraba un contenedor, si estaba vacío o cargado, qué mercancía transportaba o qué viaje tenía asociado en un momento determinado, dificultando el análisis de lo ocurrido y la localización del origen de determinadas situaciones.
