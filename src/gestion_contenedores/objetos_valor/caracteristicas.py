@@ -12,6 +12,8 @@ class Caracteristicas:
     rompeolas: bool
     got: bool
     capacidad: int
+    calentar: bool
+
 
     def __post_init__(self) -> None:
         if self.capacidad <= 0:
