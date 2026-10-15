@@ -14,7 +14,7 @@ class SituacionDiaria:
     lugar: Lugar
     cargado: bool
     mercancia: str | None = None
-    pedido: str | None = None
+    viaje: str | None = None
 
     def __post_init__(self) -> None:
         if self.cargado and self.mercancia is None:
