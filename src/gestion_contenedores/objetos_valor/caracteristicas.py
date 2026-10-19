@@ -14,7 +14,6 @@ class Caracteristicas:
     capacidad: int
     calentar: bool
 
-
     def __post_init__(self) -> None:
         if self.capacidad <= 0:
             raise CaracteristicasInvalidas("La capacidad tiene que ser positiva")
