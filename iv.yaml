@@ -1,2 +1,2 @@
 lenguaje: python
-entidad: src/gestion_contenedores/contenedor.py
+entidad: src/gestion_contenedores/entidades/contenedor.py
