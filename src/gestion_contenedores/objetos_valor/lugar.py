@@ -13,4 +13,4 @@ class Lugar:
 
     def __post_init__(self) -> None:
         if not self.direccion or not self.ciudad or not self.provincia:
-            raise LugarInvalido("Un lugar necesita dirección, ciudad y provincia")
+            raise LugarInvalido("Un lugar necesita dirección, ciudad y provincia")   
