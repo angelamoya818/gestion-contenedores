@@ -1,3 +1,5 @@
+from dataclasses import dataclass
+
 from gestion_contenedores.caracteristicas import Caracteristicas
 from gestion_contenedores.lugar import Lugar
 from gestion_contenedores.periodo import Periodo
@@ -5,21 +7,12 @@ from gestion_contenedores.restriccion import Restriccion
 from gestion_contenedores.tipo_servicio import TipoServicio
 
 
+@dataclass(eq=False)
 class Pedido:
-    def __init__(
-        self,
-        identificador: str,
-        tipo_servicio: TipoServicio,
-        periodo: Periodo,
-        origen: Lugar,
-        destino: Lugar,
-        requisitos: Caracteristicas,
-        restriccion: Restriccion | None = None,
-    ) -> None:
-        self._identificador = identificador
-        self._tipo_servicio = tipo_servicio
-        self._periodo = periodo
-        self._origen = origen
-        self._destino = destino
-        self._requisitos = requisitos
-        self._restriccion = restriccion
+    _identificador: str
+    _tipo_servicio: TipoServicio
+    _periodo: Periodo
+    _origen: Lugar
+    _destino: Lugar
+    _requisitos: Caracteristicas
+    _restriccion: Restriccion | None = None
