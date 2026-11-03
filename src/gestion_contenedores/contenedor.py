@@ -1,14 +1,11 @@
+from dataclasses import dataclass, field
+
 from gestion_contenedores.caracteristicas import Caracteristicas
 from gestion_contenedores.situacion_diaria import SituacionDiaria
 
 
+@dataclass(eq=False)
 class Contenedor:
-    def __init__(
-        self,
-        identificador: str,
-        caracteristicas: Caracteristicas,
-        historial: list[SituacionDiaria] | None = None,
-    ) -> None:
-        self._identificador = identificador
-        self._caracteristicas = caracteristicas
-        self._historial = list(historial) if historial else []
+    _identificador: str
+    _caracteristicas: Caracteristicas
+    _historial: list[SituacionDiaria] = field(default_factory=list)
