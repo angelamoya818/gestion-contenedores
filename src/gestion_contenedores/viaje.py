@@ -1,18 +1,13 @@
+from dataclasses import dataclass
+
 from gestion_contenedores.lugar import Lugar
 from gestion_contenedores.periodo import Periodo
 
 
+@dataclass(eq=False)
 class Viaje:
-    def __init__(
-        self,
-        identificador: str,
-        contenedor: str,
-        periodo: Periodo,
-        destino: Lugar,
-        pedido: str | None = None,
-    ) -> None:
-        self._identificador = identificador
-        self._contenedor = contenedor
-        self._periodo = periodo
-        self._destino = destino
-        self._pedido = pedido
+    _identificador: str
+    _contenedor: str
+    _periodo: Periodo
+    _destino: Lugar
+    _pedido: str | None = None
