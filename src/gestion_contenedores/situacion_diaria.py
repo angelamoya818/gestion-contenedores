@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from datetime import date
 
-from gestion_contenedores.objetos_valor.lugar import Lugar
+from gestion_contenedores.lugar import Lugar
 
 
 class SituacionDiariaInvalida(ValueError):

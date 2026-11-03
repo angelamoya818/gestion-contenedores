@@ -1,5 +1,5 @@
-from gestion_contenedores.objetos_valor.lugar import Lugar
-from gestion_contenedores.objetos_valor.periodo import Periodo
+from gestion_contenedores.lugar import Lugar
+from gestion_contenedores.periodo import Periodo
 
 
 class Viaje:

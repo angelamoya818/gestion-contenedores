@@ -1,8 +1,8 @@
-from gestion_contenedores.objetos_valor.caracteristicas import Caracteristicas
-from gestion_contenedores.objetos_valor.lugar import Lugar
-from gestion_contenedores.objetos_valor.periodo import Periodo
-from gestion_contenedores.objetos_valor.restriccion import Restriccion
-from gestion_contenedores.objetos_valor.tipo_servicio import TipoServicio
+from gestion_contenedores.caracteristicas import Caracteristicas
+from gestion_contenedores.lugar import Lugar
+from gestion_contenedores.periodo import Periodo
+from gestion_contenedores.restriccion import Restriccion
+from gestion_contenedores.tipo_servicio import TipoServicio
 
 
 class Pedido:

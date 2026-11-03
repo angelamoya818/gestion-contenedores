@@ -1,5 +1,5 @@
-from gestion_contenedores.objetos_valor.caracteristicas import Caracteristicas
-from gestion_contenedores.objetos_valor.situacion_diaria import SituacionDiaria
+from gestion_contenedores.caracteristicas import Caracteristicas
+from gestion_contenedores.situacion_diaria import SituacionDiaria
 
 
 class Contenedor:
