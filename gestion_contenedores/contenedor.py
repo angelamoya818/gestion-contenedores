@@ -4,8 +4,8 @@ from gestion_contenedores.caracteristicas import CaracteristicasCisterna
 from gestion_contenedores.situacion_diaria import SituacionDiaria
 
 
-@dataclass(eq=False)
+@dataclass
 class Contenedor:
     _identificador: str
-    _caracteristicas: CaracteristicasCisterna
-    _historial: list[SituacionDiaria] = field(default_factory=list)
+    _caracteristicas: CaracteristicasCisterna = field(compare=False)
+    _historial: list[SituacionDiaria] = field(default_factory=list, compare=False)
