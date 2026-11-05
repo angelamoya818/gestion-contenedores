@@ -2,10 +2,10 @@ from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
-class Caracteristicas:
-    adr: bool
-    csc: bool
+class CaracteristicasCisterna:
+    certificado_adr: bool
+    certificado_csc: bool
     rompeolas: bool
-    got: bool
+    dispone_got: bool
     capacidad: int
     calentar: bool
