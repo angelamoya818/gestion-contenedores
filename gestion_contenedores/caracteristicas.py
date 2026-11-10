@@ -5,6 +5,6 @@ from dataclasses import dataclass
 class CaracteristicasCisterna:
     certificado_adr: bool
     certificado_csc: bool
-    rompeolas: bool
+    dispone_rompeolas: bool
     capacidad: int
     calentar: bool
