@@ -9,4 +9,4 @@ class SituacionDiaria:
     fecha: date
     lugar: Lugar
     mercancia: str | None = None
-    viaje: str | None = None
+
