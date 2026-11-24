@@ -12,6 +12,7 @@ class Pedido:
     _identificador: str
     _tipo_servicio: TipoServicio = field(compare=False)
     _periodo: Periodo = field(compare=False)
+    _mercancia: str = field(compare=False)
     _origen: Lugar = field(compare=False)
     _destino: Lugar = field(compare=False)
     _requisitos: RequisitosPedido = field(compare=False)
