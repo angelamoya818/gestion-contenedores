@@ -10,4 +10,4 @@ class Viaje:
     _contenedor: str = field(compare=False)
     _periodo: Periodo = field(compare=False)
     _destino: Lugar = field(compare=False)
-    _pedido: str | None = field(default=None, compare=False)
+    _pedido: str = field(compare=False)
