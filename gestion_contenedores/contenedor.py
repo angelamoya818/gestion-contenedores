@@ -8,4 +8,5 @@ from gestion_contenedores.situacion_diaria import SituacionDiaria
 class Contenedor:
     _identificador: str
     _caracteristicas: CaracteristicasCisterna = field(compare=False)
+    _limpio: bool = field(compare=False)
     _historial: list[SituacionDiaria] = field(default_factory=list, compare=False)
