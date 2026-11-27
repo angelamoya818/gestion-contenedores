@@ -49,6 +49,15 @@ Tambien he incluido dentro del tiempo de instalación la primera ejecución de h
 - [Tercera instalación](docs/capturas/uv-oficial-3.png): 4,339 s.
 Mediana: 4,339 s. Versión utilizada: 1.18.2.
 
+#### Pixi
+Permite declarar las dependencias en pyproject.toml y guaradar las versiones en pixi.lock. A diferencia de otras herramientas permite gestionar tanto paquetes de Python como paquetes de otros lenguajes y también ejecutar tareas. 
+Para ejecutarlo he utilizado el comando que aparece en su [documentación oficial](https://pixi.prefix.dev/latest/installation/):
+- [Primera instalación](docs/capturas/pixi-oficial-1.png): 4,987 s.
+- [Segunda instalación](docs/capturas/pixi-oficial-2.png): 2,942 s.
+- [Tercera instalación](docs/capturas/pixi-oficial-3.png): 5,319 s.
+Mediana: 4,987 s. Versión utilizada: 0.85.0.
+
+
 ### Mediciones
 
 ### Elección
