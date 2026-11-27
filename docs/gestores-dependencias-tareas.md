@@ -57,6 +57,9 @@ Para ejecutarlo he utilizado el comando que aparece en su [documentación oficia
 - [Tercera instalación](docs/capturas/pixi-oficial-3.png): 5,319 s.
 Mediana: 4,987 s. Versión utilizada: 0.85.0.
 
+### Elección gestor de paquetes y dependencias
+Tras consultar la documentación de las cinco herramientas, he visto que todas permiten utilizar pyproject.toml y conservar versiones de las dependencias. Como ahora mismo mi proyecto no utiliza librerías externas el criterio por el que puedo decidir es el tiempo que tardan en instalarse. 
+Mi elección final es uv, ya que hah obtenido una mediana de 1,631 s, frente a los 4,339 s de Hatch, 4,987 s de Pixi, los 14,898 s de PDM y los 15,977 s de Poetry. Aunque Pixi permita gestionar paquetes de otros lenguajes como no necesito actualmente esa funcionalidad porque esta desarrollado únicamnete en Python mantendré uv.
 
 ### Mediciones
 
