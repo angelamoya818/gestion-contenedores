@@ -23,6 +23,15 @@ He ejecutado este comando en tres contenedores nuevos y he obtenido estos tiempo
 - [Tercera instalación](docs/capturas/uv-oficial-3.png): 2,079 s.
 Mediana: 1,631 s. Versión utilizada: 0.13.10.
 
+#### PDM
+Permite declarar las dependencias en pyproject.toml y guarda versiones resueltas en pdm.lock. También permite definir y ejecutar tareas, algo que tendré en cuenta cuando estudie los gestores de tareas. 
+Para instalarlo he usado el comando que aparece en su [documentación oficial](https://pdm-project.org/latest/#installation):
+curl -sSL https://pdm-project.org/install.sh | bash
+- [Primera instalación](docs/capturas/pdm-oficial-1.png): 16,911 s.
+- [Segunda instalación](docs/capturas/pdm-oficial-2.png): 14,332 s.
+- [Tercera instalación](docs/capturas/pdm-oficial-3.png): 14,898 s.
+Mediana: 1,631 s. Versión utilizada: 2.29.7.
+
 ### Mediciones
 
 ### Elección
