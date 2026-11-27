@@ -6,5 +6,5 @@ Este hito lo consideraremos válido cuando se pueda representar en código los d
 
 ## Milestone 1: Implementación lógica de negocio 
 En este hito se incorporamos la lógica de negocio para resolver el problema que plantee en la HU001 a partir del modelo del anterior hito.
-El hito se considerará válido cuando con las pruebas podamos comprobar quecon los datos de la HU001, se obtiene el resultado que esperábamos y que los problemas que se describen en las historias de usuario se resuelven correctamente.
-
+El hito se considerará válido cuando con las pruebas podamos comprobar que con los datos de la HU001, se obtiene el resultado que esperábamos y que los problemas que se describen en las historias de usuario se resuelven correctamente.
+Como producto mínimamente viable de este milestone se incluye la automatización de la instalación de dependencias y comprobaciones del código.
