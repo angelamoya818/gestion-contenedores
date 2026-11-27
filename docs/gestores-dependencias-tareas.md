@@ -3,7 +3,7 @@
 ## Gestor de paquetes y dependencias
 Actualmente gestion-contenedores utiliza módulos de la biblioteca estándar de python y no tiene dependencias externas.
 
-### Criterios
+### Criterios de elección
 -Que utilice [pyproject.toml](https://packaging.python.org/en/latest/specifications/pyproject-toml/) para declarar dependencias del proyecto.
 -Permite la preparación reproducible del entorno cuando se incorporen dependencias externas.
 -Minimizar el tiempo de instalación de la herramienta, ya que será necesario prepararla en los futuros entornos de integración continua.
@@ -63,8 +63,13 @@ Tras consultar la documentación de las cinco herramientas, he visto que todas p
 Mi elección final es uv, ya que hah obtenido una mediana de 1,631 s, frente a los 4,339 s de Hatch, 4,987 s de Pixi, los 14,898 s de PDM y los 15,977 s de Poetry. Aunque Pixi permita gestionar paquetes de otros lenguajes como no necesito actualmente esa funcionalidad porque esta desarrollado únicamnete en Python mantendré uv.
 
 ## Gestor de tareas
+Para comprobar que la sintaxis de mi código es correcta hay que ejecutar los comandos manualmente. Necesito poder realizar esta comprobación mediante una misma orden.
 
-### Criterios
+### Criterios de elección
+- Tiempo de instalación de la herramienta, ya que más adelante tendré que preparar el proyecto en contenedores.
+- Tiempo que añade la herramienta al comprobar la sintaxis del código ya que esta comprobación se realizará cada vez que se hagan cambios.
+Como ya he decidido uv como gestor de dependencias tambien me interesa estudiar herramientas que permitan aprovechar el fichero pyproject.toml para definir tareas. 
+Para comparar los tiempos de ejecución primero mediré lo que tarda la comprobación de sintaxis sin utilizar ningún gestor de tareas.
 
 ### Alternativas
 
