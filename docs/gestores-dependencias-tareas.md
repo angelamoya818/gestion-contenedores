@@ -41,6 +41,14 @@ curl -sSL https://install.python-poetry.org | python3 -
 - [Tercera instalación](docs/capturas/uv-oficial-3.png): 19,480 s.
 Mediana: 15,977 s. Versión utilizada: 2.5.2.
 
+#### Hatch
+Permite declarar las dependencias en pyproject.toml, gestionar los entornos y definir tareas. Sigiendo las indicaciones de su [documentación oficial](https://hatch.pypa.io/latest/install/#standalone-binaries) he descargado el programa ya compilado para Linux, lo he descomprimido y he comprobado que funciona.
+Tambien he incluido dentro del tiempo de instalación la primera ejecución de hatch --help para comprobar que la herramienta está lista para utilizarse. En las herramientas anteriores, la comprobación de la versión se hizo fuera del tiempo medido. 
+- [Primera instalación](docs/capturas/hatch-oficial-1.png): 5,637 s.
+- [Segunda instalación](docs/capturas/uv-oficial-2.png): 4,176 s.
+- [Tercera instalación](docs/capturas/uv-oficial-3.png): 4,339 s.
+Mediana: 4,339 s. Versión utilizada: 1.18.2.
+
 ### Mediciones
 
 ### Elección
