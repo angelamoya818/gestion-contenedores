@@ -32,6 +32,15 @@ curl -sSL https://pdm-project.org/install.sh | bash
 - [Tercera instalación](docs/capturas/pdm-oficial-3.png): 14,898 s.
 Mediana: 1,631 s. Versión utilizada: 2.29.7.
 
+#### Poetry
+Permite gestionar las dependencias del proyecto mediante pyproject.toml y guarda las versiones de las liberías en poetry.lock. También permite crear entornos virtuales y empaquetar el proyecto. 
+Para instalarlo he utilizado el comando que aparece en su [documentación oficial](https://python-poetry.org/docs/#installation):
+curl -sSL https://install.python-poetry.org | python3 -
+- [Primera instalación](docs/capturas/poetry-oficial-1.png): 15,199 s.
+- [Segunda instalación](docs/capturas/uv-oficial-2.png): 15,977 s.
+- [Tercera instalación](docs/capturas/uv-oficial-3.png): 19,480 s.
+Mediana: 15,977 s. Versión utilizada: 2.5.2.
+
 ### Mediciones
 
 ### Elección
